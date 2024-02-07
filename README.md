@@ -27,7 +27,7 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
  # Variables
 
- <bold> InvoiceNo : <bold> Invoice number. Unique number for each transaction, i.e. invoice. If it starts with C, the canceled transaction.</br>
+** InvoiceNo :** <bold> Invoice number. Unique number for each transaction, i.e. invoice. If it starts with C, the canceled transaction.</br>
  StockCode: Product code. Unique number for each product.<br/>
  Description: Open name of the product <br/>
  Quantity: Product quantity. It expresses how many of the products in the invoices are sold. <br/>
