@@ -27,14 +27,14 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
  # Variables
 
-** InvoiceNo :** <bold> Invoice number. Unique number for each transaction, i.e. invoice. If it starts with C, the canceled transaction.</br>
- StockCode: Product code. Unique number for each product.<br/>
- Description: Open name of the product <br/>
- Quantity: Product quantity. It expresses how many of the products in the invoices are sold. <br/>
- InvoiceDate: Invoice date and time. <br/>
- UnitPrice: Product price (in pounds sterling) <br/>
- CustomerID Unique customer number <br/>
- Country: Country name. The country where the customer lives. <br/>
+**InvoiceNo :** <bold> Invoice number. Unique number for each transaction, i.e. invoice. If it starts with C, the canceled transaction.</br>
+**StockCode :** Product code. Unique number for each product.<br/>
+**Description :** Open name of the product <br/>
+**Quantity :** Product quantity. It expresses how many of the products in the invoices are sold. <br/>
+**InvoiceDate :** Invoice date and time. <br/>
+**UnitPrice :** Product price (in pounds sterling) <br/>
+**CustomerID :** Unique customer number <br/>
+**Country :** Country name. The country where the customer lives. <br/>
 
 
 NOTE  : Let's say the manager of the sales and marketing team makes a request, we think we need to take care of our customers, we want to focus on the need_attention class. 
