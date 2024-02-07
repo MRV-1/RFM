@@ -27,23 +27,24 @@ https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
  # Variables
 
- InvoiceNo: Invoice number. Unique number for each transaction, i.e. invoice. If it starts with C, the canceled transaction.
- StockCode: Product code. Unique number for each product.
- Description: Open name of the product
- Quantity: Product quantity. It expresses how many of the products in the invoices are sold.
- InvoiceDate: Invoice date and time.
- UnitPrice: Product price (in pounds sterling)
- CustomerID Unique customer number
- Country: Country name. The country where the customer lives.
+ InvoiceNo: Invoice number. Unique number for each transaction, i.e. invoice. If it starts with C, the canceled transaction.<br/>
+ StockCode: Product code. Unique number for each product.<br/>
+ Description: Open name of the product <br/>
+ Quantity: Product quantity. It expresses how many of the products in the invoices are sold. <br/>
+ InvoiceDate: Invoice date and time. <br/>
+ UnitPrice: Product price (in pounds sterling) <br/>
+ CustomerID Unique customer number <br/>
+ Country: Country name. The country where the customer lives. <br/>
 
 
-NOTE  : #Let's say the manager of the sales and marketing team makes a request, we think we need to take care of our customers, we want to focus on the need_attention class. 
+NOTE  : Let's say the manager of the sales and marketing team makes a request, we think we need to take care of our customers, we want to focus on the need_attention class. 
 
 So we will need to provide the department with the information of the group that provides these features. This code is designed to do just that.
 
 The sub-features given in chapter 7 can be broken down. The stages PREPARE DATA, CALCULATE RFM METRICS, CALCULATE RFM SCORES, NAME SEGMENTS can be broken down into functions.
 
-#What is fragmentation good for?
+# What is fragmentation good for?
+
 1) There may be changes in the data set or there may be a desire to intervene in these segments during the flow, so it is useful to fragment.
 
 
