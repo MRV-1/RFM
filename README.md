@@ -1,4 +1,4 @@
-# RFM
+# Recency, Frequency, Monetary
 
 RFM : Recency, Frequency, Monetary consists of the initials Recency, Frequency, Monetary.
 
